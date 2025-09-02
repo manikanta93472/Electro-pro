@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products - Electronics Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0077cc;
+      margin: 30px 0 10px 0;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0 5px 0;
+      color: #0077cc;
+    }
+
+    .product-card p {
+      font-size: 14px;
+      color: #666;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .price {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #1a8a34;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Electronics Home</h1>
+    <p>Your one-stop shop for the latest electronics</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h2>Our Products</h2>
+
+  <section class="product-list">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Smartphone" />
+      <h3>Smartphone X100</h3>
+      <p>Experience the latest features with a crystal-clear display and long-lasting battery life.</p>
+      <div class="price">$199</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Laptop" />
+      <h3>Laptop Pro 15"</h3>
+      <p>Powerful and portable, perfect for work and play with high-speed performance.</p>
+      <div class="price">$1,199</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1580894894513-d3f3dbd1d3c7" alt="Headphones" />
+      <h3>Noise Cancelling Headphones</h3>
+      <p>Immerse yourself in music with superior sound and wireless convenience.</p>
+      <div class="price">$149</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Smartwatch" />
+      <h3>Smartwatch Series 5</h3>
+      <p>Track your health and stay connected with this stylish wearable device.</p>
+      <div class="price">$99</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1510552776732-01acc05b6825" alt="Tablet" />
+      <h3>Tablet Z10</h3>
+      <p>Lightweight and powerful tablet, perfect for entertainment and productivity on the go.</p>
+      <div class="price">$299</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Electronics Home. All rights reserved.
+  </footer>
+
+</body>
+</html>
